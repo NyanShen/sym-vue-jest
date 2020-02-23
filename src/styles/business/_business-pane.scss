@@ -1,0 +1,26 @@
+.business-pane {
+  margin-top: 0;
+  margin-bottom: 114px;
+
+  .pane {
+    min-height: 350px;
+    border-radius: 5px;
+    background-color: white;
+    .pane-title {
+      height: 55px;
+      line-height: 55px;
+      border-bottom: $border;
+      span {
+        font-size: 16px;
+        margin-left: 25px;
+        color: $text-color;
+      }
+    }
+    .pane-content {
+      padding: 28px 40px 40px;
+    }
+  }
+  .pane-body {
+    margin-top: 20px;
+  }
+}

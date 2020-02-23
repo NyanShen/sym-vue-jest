@@ -1,0 +1,29 @@
+.tabs-container {
+    .tab-header {
+      padding: 12px 12px 12px 20px;
+      border-bottom: 1px solid #eee;
+      .tab-title {
+        position: relative;
+        float: left;
+  
+        a {
+          padding: 4px 12px 11px;
+        }
+  
+        .active {
+          color: $primary-color;
+          border-bottom: 2px solid $primary-color;
+        }
+  
+        a:hover {
+          color: $primary-color;
+        }
+      }
+    }
+    .tab-content {
+      padding: 12px 12px 12px 20px;
+      .content-pane {
+        margin-bottom: 25px;
+      }
+    }
+  }

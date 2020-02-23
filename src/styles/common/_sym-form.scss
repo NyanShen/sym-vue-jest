@@ -1,0 +1,81 @@
+.sym-form-wrapper {
+    padding: 20px;
+  }
+  .sym-form-item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    .sym-form-label {
+      height: 32px;
+      line-height: 32px;
+      margin-right: 15px;
+      color: $text-color;
+      .fa {
+        cursor: pointer;
+        font-size: 18px;
+        color: $description-color;
+      }
+    }
+    .sym-form-edit {
+      .sym-form-control {
+        width: 280px;
+        height: 32px;
+        line-height: 32px;
+        padding: 10px;
+        font-size: 14px;
+        color: $text-color;
+        border: $border;
+        border-radius: 5px;
+        outline: none;
+        &:focus:valid {
+          border-color: $primary-color;
+        }
+        &:focus:invalid {
+          border-color: red;
+        }
+        &:not(:valid) + .sym-form-error {
+          visibility: visible;
+        }
+        &:focus:not(:placeholder-shown) + .sym-form-icon {
+          display: block;
+        }
+      }
+      .sym-form-control:focus,
+      .sym-form-control:hover {
+        border-color: $primary-color;
+      }
+      .sym-form-error {
+        position: absolute;
+        color: $error-color;
+        bottom: -18px;
+        font-size: 8px;
+        visibility: hidden;
+      }
+      .sym-form-icon {
+        display: none;
+        position: absolute;
+        top: 7px;
+        width: 18px;
+        height: 18px;
+        margin-left: 8px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: green;
+      }
+      .sym-form-icon-delete {
+        right: 7px;
+        background-color: $description-color;
+      }
+      .sym-form-icon-check:before {
+        content: "\f00c";
+        font-family: "FontAwesome";
+        color: white;
+      }
+      .sym-form-icon-delete:before {
+        content: "\f00d";
+        font-family: "FontAwesome";
+        color: white;
+      }
+    }
+  }

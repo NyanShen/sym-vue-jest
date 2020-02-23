@@ -1,0 +1,27 @@
+.search-group {
+    .search-item {
+        float: left;
+        margin: 10px 30px 20px 0;
+        .search-label {
+            padding-right: 5px;
+            text-align: right;
+            line-height: 39px;
+        }
+        .search-select-item {
+            display: inline-block;
+            .search-select-container {
+                border: $border;
+                border-radius: 3px;
+                padding: 0 8px;
+                .form-control {
+                    width: 140px;
+                    border: none;
+                }
+            }
+            .search-select-container:focus
+            .search-select-container:hover {
+                border-color: $primary-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.fixed-bar-component-container {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0 16px;
+  border-top: $border;
+  background-color: white;
+  box-shadow: 0 -2px 6px 1px hsla(223, 8%, 83%, 0.5);
+  .btn-group {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 20px 0;
+    box-sizing: border-box;
+    .sym-btn + .sym-btn {
+      margin-left: 10px;
+    }
+  }
+}

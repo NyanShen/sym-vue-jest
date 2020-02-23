@@ -1,0 +1,74 @@
+.login-pane {
+    position: absolute;
+    right: 0;
+    top: 66px;
+    width: 350px;
+    min-height: 260px;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  .login-form {
+    position: relative;
+    padding: 32px 24px;
+  
+    .login-title {
+      font-size: 18px;
+      color: $title-color;
+      margin: 0 0 8px;
+    }
+    .login-logo {
+      position: absolute;
+      top: 32px;
+      right: 24px;
+      height: 32px;
+    }
+    .login-tips {
+      position: absolute;
+      cursor: pointer;
+      top: 2px;
+      right: 55px;
+      color: $primary-color;
+      background-color: #eaf4ff;
+      .tips-text {
+        width: 80px;
+        text-align: center;
+        font-size: 12px;
+        border: 1px solid $primary-color;
+        border-radius: 3px;
+        padding: 2px 12px;
+      }
+      .tips-arrow {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 5px solid transparent;
+        border-left-color: $primary-color;
+        top: 50%;
+        left: 100%;
+        margin-top: -5px;
+      }
+      .arrow-cover {
+        border-left-color: #eaf4ff;
+        margin-left: -1px;
+      }
+    }
+  }
+  .login-footer {
+    height: 50px;
+    color: $primary-color;
+    text-align: right;
+    background-color: #eaf4ff;
+    padding-top: 15px;
+    padding-right: 24px;
+  
+    .btn {
+      color: $primary-color;
+    }
+  
+    .btn-second {
+      border-radius: 3px;
+      padding: 2px 12px;
+      border: 1px solid $primary-color;
+    }
+  }

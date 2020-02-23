@@ -1,1 +1,0 @@
-# sym-vue-jest

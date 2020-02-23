@@ -1,0 +1,45 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.flex-ct-x {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-ct-y {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  color: $placeholder-color;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $placeholder-color;
+}
+
+::placeholder {
+  color: $placeholder-color;
+}
+:disabled {
+  background: $disabled-color;
+}
+
+.required-star {
+  color: $error-color;
+}
+
+@import "./common/tabs";
+@import "./common/sym-btn";
+@import "./common/sym-form";
+@import "./common/search-group";
+@import "./common/empty-container";
