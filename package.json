@@ -43,7 +43,7 @@
     "jest-serializer-vue": "^2.0.2",
     "jest-transform-stub": "^2.0.0",
     "jest-watch-typeahead": "^0.4.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-loader": "^3.0.0",
     "postcss-px2rem-exclude": "0.0.6",
